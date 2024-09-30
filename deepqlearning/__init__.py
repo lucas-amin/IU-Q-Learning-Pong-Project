@@ -22,7 +22,6 @@ class PongDeepQLearning:
     action_space_size = 2
 
     def __init__(self, use_trained_model):
-
         self.model = self.build_model(PongDeepQLearning.state_size,
                                       PongDeepQLearning.action_space_size)
 
